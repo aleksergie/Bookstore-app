@@ -2,7 +2,7 @@ import booksActionTypes from "./books.types";
 
 const initialState = {
   isReady: false,
-  items: null,
+  items: [],
 };
 
 const booksReducer = (state = initialState, action) => {
