@@ -6,8 +6,6 @@ import orderBy from "lodash/orderBy";
 
 const sortBy = (books, filteredBy) => {
   switch (filteredBy) {
-    case "all":
-      return books;
     case "priceHigh":
       return orderBy(books, "price", "desc");
     case "priceLow":
@@ -19,8 +17,20 @@ const sortBy = (books, filteredBy) => {
   }
 };
 
-const mapStateToProps = ({ books }) => ({
-  books: sortBy(books.items, books.filteredBy),
+const filterBooks = (books, searchQuery) => {
+  return books.filter(
+    (book) =>
+      book.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      book.author.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+};
+
+const searchBooks = (books, filteredBy, searchQuery) => {
+  return sortBy(filterBooks(books, searchQuery), filteredBy);
+};
+
+const mapStateToProps = ({ books, filter }) => ({
+  books: searchBooks(books.items, filter.filteredBy, filter.searchQuery),
   isReady: books.isReady,
 });
 
