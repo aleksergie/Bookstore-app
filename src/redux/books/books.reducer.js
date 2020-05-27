@@ -1,7 +1,9 @@
 import booksActionTypes from "./books.types";
+import filterActionTypes from "../filter/filter.types";
 
 const initialState = {
   isReady: false,
+  filteredBy: "all",
   items: [],
 };
 
@@ -13,10 +15,10 @@ const booksReducer = (state = initialState, action) => {
         items: action.payload,
         isReady: true,
       };
-    case booksActionTypes.SET_IS_READY:
+    case filterActionTypes.SET_FILTER:
       return {
         ...state,
-        isReady: action.payload,
+        filteredBy: action.payload,
       };
     default:
       return state;

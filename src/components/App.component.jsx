@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
-import { setBooks } from "./redux/books/books.actions";
-import Header from "./components/header/header.component";
+import Header from "./header/header.component";
 import { Container } from "semantic-ui-react";
-import BookCard from "./components/book-card/book-card.component";
+import BookCard from "../components/book-card/book-card.component";
+import Filter from "../containers/Filter.container";
 import { Card } from "semantic-ui-react";
-import LoaderComponent from "./components/loader/loader.component";
+import LoaderComponent from "./loader/loader.component";
 import axios from "axios";
 
 class App extends Component {
@@ -20,6 +19,7 @@ class App extends Component {
     return (
       <Container>
         <Header />
+        <Filter />
         <Card.Group itemsPerRow={4}>
           {!isReady ? (
             <LoaderComponent />
@@ -31,14 +31,4 @@ class App extends Component {
     );
   }
 }
-
-const mapStateToProps = ({ books }) => ({
-  books: books.items,
-  isReady: books.isReady,
-});
-
-const mapDispatchToProps = (dispatch) => ({
-  setBooks: (books) => dispatch(setBooks(books)),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;

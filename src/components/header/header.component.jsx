@@ -7,7 +7,7 @@ const Header = () => (
 
     <Menu.Menu position="right">
       <Menu.Item name="signup">
-        Quantity: &nbsp;<b>0</b>
+        Total: &nbsp;<b>0</b>$
       </Menu.Item>
 
       <Menu.Item name="help">
