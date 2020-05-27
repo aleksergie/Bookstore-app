@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Header from "./header/header.component";
+import Header from "../containers/Header.container";
 import { Container } from "semantic-ui-react";
-import BookCard from "../components/book-card/book-card.component";
+import BookCard from "../containers/BookCard.container";
 import Filter from "../containers/Filter.container";
 import { Card } from "semantic-ui-react";
 import LoaderComponent from "./loader/loader.component";
