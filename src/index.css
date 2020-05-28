@@ -7,6 +7,15 @@ html {
   margin-top: 10px;
 }
 
+.container {
+  background: rgb(250, 249, 242);
+}
+
 .menu {
   margin-bottom: 20px;
+}
+
+.content {
+  width: 255px;
+  display: inline-block;
 }

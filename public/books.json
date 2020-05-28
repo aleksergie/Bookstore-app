@@ -1,14 +1,6 @@
 [
   {
     "id": 0,
-    "title": "Происхождение",
-    "author": "Дэн Браун",
-    "image": "https://avidreaders.ru/pics/3/2/623032.jpeg",
-    "price": 710,
-    "rating": 3
-  },
-  {
-    "id": 1,
     "title": "1984",
     "author": "Джордж Оруэлл",
     "image": "https://avidreaders.ru/pics/7/2/537472.jpeg",
@@ -16,7 +8,7 @@
     "rating": 5
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "Девушка в тумане",
     "author": "Донато Карризи",
     "image": "https://avidreaders.ru/pics/0/5/616505.jpeg",
@@ -24,7 +16,7 @@
     "rating": 4
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Империя должна умереть",
     "author": "Михаил Зыгарь",
     "image": "https://avidreaders.ru/pics/9/4/606294.jpeg",
@@ -32,7 +24,7 @@
     "rating": 3
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Земное притяжение",
     "author": "Татьяна Устинова",
     "image": "https://avidreaders.ru/pics/6/6/614066.jpeg",
@@ -40,39 +32,39 @@
     "rating": 1
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Зулейха открывает глаза",
     "author": "Гузель Яхина",
     "image": "https://avidreaders.ru/pics/3/6/496836.jpeg",
     "price": 254,
-    "rating": 0
+    "rating": 4
   },
   {
-    "id": 6,
-    "title": "Очаровательный кишечник. Как самый могущественный орган управляет нами",
+    "id": 5,
+    "title": "Очаровательный кишечник",
     "author": "Джулия Эндерс",
     "image": "https://avidreaders.ru/pics/7/9/520379.jpeg",
     "price": 573,
     "rating": 4
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "iPhuck 10",
     "author": "Виктор Пелевин",
     "image": "https://avidreaders.ru/pics/9/9/606299.jpeg",
     "price": 246,
-    "rating": 0
+    "rating": 1
   },
   {
-    "id": 8,
-    "title": "7 навыков высокоэффективных людей: Мощные...",
+    "id": 7,
+    "title": "7 навыков высокоэффективных людей",
     "author": "Стивен Кови",
     "image": "https://avidreaders.ru/pics/9/6/529096.jpeg",
     "price": 347,
     "rating": 5
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Девушка во льду",
     "author": "Роберт Брындза",
     "image": "https://avidreaders.ru/pics/6/5/629765.jpeg",
@@ -80,83 +72,91 @@
     "rating": 2
   },
   {
-    "id": 10,
-    "title": "Магия утра. Как первый час дня определяет ваш успех",
+    "id": 9,
+    "title": "Магия утра",
     "author": "Хэл Элрод",
     "image": "https://avidreaders.ru/pics/8/1/541481.jpeg",
     "price": 829,
     "rating": 1
   },
   {
-    "id": 11,
-    "title": "Азиатская европеизация. История Российского государства. Царь Петр...",
+    "id": 10,
+    "title": "Азиатская европеизация",
     "author": "Борис Акунин",
     "image": "https://avidreaders.ru/pics/0/4/618304.jpeg",
     "price": 389,
-    "rating": 2
+    "rating": 1
+  },
+  {
+    "id": 11,
+    "title": "Тонкое искусство пофигизма",
+    "author": "Марк Мэнсон",
+    "image": "https://avidreaders.ru/pics/0/0/601000.jpeg",
+    "price": 424,
+    "rating": 4
   },
   {
     "id": 12,
-    "title": "Ведьмак (сборник)",
-    "author": "Анджей Сапковский",
-    "image": "https://avidreaders.ru/pics/9/0/23390.jpg",
-    "price": 424,
-    "rating": 3
-  },
-  {
-    "id": 13,
     "title": "Атлант расправил плечи",
     "author": "Айн Рэнд",
     "image": "https://avidreaders.ru/pics/7/0/10770.jpeg",
     "price": 157,
-    "rating": 2
+    "rating": 3
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Цена вопроса. Том 1",
     "author": "Александра Маринина",
     "image": "https://avidreaders.ru/pics/2/0/605520.jpeg",
     "price": 664,
-    "rating": 0
+    "rating": 2
+  },
+  {
+    "id": 14,
+    "title": "Sapiens. Краткая история человечества",
+    "author": "Юваль Ной Харари",
+    "image": "https://avidreaders.ru/pics/1/6/562416.jpeg",
+    "price": 476,
+    "rating": 5
   },
   {
     "id": 15,
-    "title": "Исчезнувшая",
-    "author": "Гиллиан Флинн",
-    "image": "https://avidreaders.ru/pics/0/0/100.jpg",
-    "price": 476,
-    "rating": 4
-  },
-  {
-    "id": 17,
-    "title": "Метро 2035",
-    "author": "Дмитрий Глуховский",
-    "image": "https://avidreaders.ru/pics/2/2/432622.jpeg",
+    "title": "Думай и богатей",
+    "author": "Хилл Наполеон",
+    "image": "https://avidreaders.ru/pics/2/0/568120.jpeg",
     "price": 837,
     "rating": 4
   },
   {
-    "id": 18,
-    "title": "Снеговик",
-    "author": "Ю Несбё",
-    "image": "https://avidreaders.ru/pics/3/7/2137.jpg",
+    "id": 16,
+    "title": "Психология",
+    "author": "Пол Клейнман",
+    "image": "https://avidreaders.ru/pics/8/4/432484.jpeg",
     "price": 796,
     "rating": 5
   },
   {
-    "id": 19,
-    "title": "Как тренировать память. Не думайте о памяти – лучше используйте ее на все сто!",
+    "id": 17,
+    "title": "Как тренировать память",
     "author": "Джонатан Хэнкок",
     "image": "https://avidreaders.ru/pics/6/7/503767.jpeg",
     "price": 399,
     "rating": 5
   },
   {
-    "id": 20,
-    "title": "Путешествие на край ночи",
-    "author": "Луи-Фердинанд Селин",
-    "image": "https://avidreaders.ru/pics/4/0/16240.jpg",
+    "id": 18,
+    "title": "Важные годы",
+    "author": "Мэг Джей",
+    "image": "https://avidreaders.ru/pics/9/8/7298.jpeg",
     "price": 452,
     "rating": 4
+  },
+  {
+    "id": 19,
+    "title": "Сказать жизни Да!",
+    "author": "Франкл Виктор Эмиль",
+    "image": "https://avidreaders.ru/pics/9/5/1195.jpeg",
+    "price": 452,
+    "rating": 3
   }
 ]

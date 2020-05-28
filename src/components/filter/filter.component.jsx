@@ -3,6 +3,7 @@ import { Menu, Input } from "semantic-ui-react";
 
 const Filter = ({ setFilter, filteredBy, searchQuery, setSearchQuery }) => (
   <Menu secondary>
+    <Menu.Item header>Sort By</Menu.Item>
     <Menu.Item
       active={filteredBy === "all"}
       onClick={setFilter.bind(this, "all")}
